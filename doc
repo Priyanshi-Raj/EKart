@@ -1,0 +1,3 @@
+//babble  convert evry code to plain javacsript
+web pack -makes bundle of project and run on local development environment.
+index.js=entry point
