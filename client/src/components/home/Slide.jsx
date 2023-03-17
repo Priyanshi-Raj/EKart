@@ -99,3 +99,5 @@ const Slide = ({ products,title,timer}) => {
   );
 };
 export default Slide;
+
+

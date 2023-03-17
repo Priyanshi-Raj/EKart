@@ -47,3 +47,4 @@ const MidSlide = ({ products,title,timer }) => {
 }
 
 export default MidSlide;
+

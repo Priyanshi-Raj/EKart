@@ -4,7 +4,9 @@ const Component = styled(Box)(({ theme }) => ({
     display: 'flex',
     justifyContent: 'space-between',
     margin: '55px 130px 0 130px !important',
-    overflowX: 'overlay',
+    overflow: 'hidden',
+   
+
     [theme.breakpoints.down('lg')]: {
         margin: '0px !important'
     }
@@ -19,6 +21,7 @@ font-weight:600;
 font-family:inherit;`
 const NavBar=()=>{
     return(
+        <Box style={{ background:'#fff'}}>
         <Component>
             {
                 navData.map(data=>(
@@ -28,7 +31,7 @@ const NavBar=()=>{
                         </Container>
                 ))
             }
-        </Component>
+        </Component></Box>
     )
 }
 export default NavBar;
